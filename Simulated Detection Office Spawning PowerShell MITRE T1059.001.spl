@@ -1,0 +1,8 @@
+index="office_spawning" 
+| eval parent_image=lower(parent_process_name), child_image=lower(process_name)
+| search parent_image IN ("winword.exe", "excel.exe", "powerpnt.exe")
+| search child_image="powershell.exe"
+| eval Tactic="Execution", Technique_ID="T1059.001", Technique_Name="PowerShell"
+| eval risk_score=80
+| table _time, host, user, parent_image, child_image, CommandLine, ParentCommandLine, Tactic, Technique_ID, Technique_Name, risk_score
+| sort - _time

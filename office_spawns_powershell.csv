@@ -1,0 +1,61 @@
+_time,host,user,process_name,parent_process_name,CommandLine,ParentCommandLine
+2025-08-02T10:16:43,host2,bob,powershell.exe,powerpnt.exe,powershell.exe -nop -w hidden -enc ...,powerpnt.exe C:\Users\bob\Documents\malicious.docm
+2025-08-02T10:10:26,host6,bob,powershell.exe,powerpnt.exe,powershell.exe IEX (New-Object Net.WebClient).DownloadString(...),powerpnt.exe C:\Users\bob\Documents\malicious.docm
+2025-08-02T10:31:57,host5,charlie,powershell.exe,powerpnt.exe,powershell.exe -nop -w hidden -enc ...,powerpnt.exe C:\Users\charlie\Documents\malicious.docm
+2025-08-02T10:53:33,host4,dave,cmd.exe,explorer.exe,cmd.exe /c whoami,explorer.exe
+2025-08-02T10:24:11,host4,dave,notepad.exe,explorer.exe,notepad.exe,explorer.exe
+2025-08-02T10:56:06,host1,charlie,powershell.exe,excel.exe,powershell -nop -enc ...,excel.exe C:\Users\charlie\Documents\malicious.docm
+2025-08-02T10:41:34,host2,bob,powershell.exe,excel.exe,powershell -ExecutionPolicy Bypass -File evil.ps1,excel.exe C:\Users\bob\Documents\malicious.docm
+2025-08-02T10:35:19,host4,alice,cmd.exe,explorer.exe,cmd.exe /c whoami,explorer.exe
+2025-08-02T10:46:11,host6,eve,powershell.exe,winword.exe,"powershell -Command ""Invoke-Expression ...""",winword.exe C:\Users\eve\Documents\malicious.docm
+2025-08-02T10:16:14,host3,frank,notepad.exe,explorer.exe,notepad.exe,explorer.exe
+2025-08-02T10:18:05,host5,eve,notepad.exe,explorer.exe,notepad.exe,explorer.exe
+2025-08-02T10:11:09,host4,dave,powershell.exe,excel.exe,"powershell -Command ""Invoke-Expression ...""",excel.exe C:\Users\dave\Documents\malicious.docm
+2025-08-02T10:03:07,host6,bob,powershell.exe,excel.exe,powershell.exe -nop -w hidden -enc ...,excel.exe C:\Users\bob\Documents\malicious.docm
+2025-08-02T10:34:47,host4,alice,powershell.exe,winword.exe,powershell.exe -nop -w hidden -enc ...,winword.exe C:\Users\alice\Documents\malicious.docm
+2025-08-02T10:34:39,host1,frank,powershell.exe,excel.exe,"powershell -Command ""Invoke-Expression ...""",excel.exe C:\Users\frank\Documents\malicious.docm
+2025-08-02T10:40:42,host1,dave,powershell.exe,excel.exe,"powershell -Command ""Invoke-Expression ...""",excel.exe C:\Users\dave\Documents\malicious.docm
+2025-08-02T10:58:49,host3,eve,powershell.exe,winword.exe,powershell.exe -nop -w hidden -enc ...,winword.exe C:\Users\eve\Documents\malicious.docm
+2025-08-02T10:06:26,host1,frank,notepad.exe,explorer.exe,notepad.exe,explorer.exe
+2025-08-02T10:51:15,host3,frank,powershell.exe,excel.exe,powershell.exe -nop -w hidden -enc ...,excel.exe C:\Users\frank\Documents\malicious.docm
+2025-08-02T10:16:20,host1,bob,powershell.exe,powerpnt.exe,powershell.exe -nop -w hidden -enc ...,powerpnt.exe C:\Users\bob\Documents\malicious.docm
+2025-08-02T10:33:21,host1,alice,powershell.exe,excel.exe,powershell -nop -enc ...,excel.exe C:\Users\alice\Documents\malicious.docm
+2025-08-02T10:41:35,host6,bob,powershell.exe,powerpnt.exe,powershell -ExecutionPolicy Bypass -File evil.ps1,powerpnt.exe C:\Users\bob\Documents\malicious.docm
+2025-08-02T10:05:50,host6,dave,cmd.exe,explorer.exe,cmd.exe /c whoami,explorer.exe
+2025-08-02T10:05:22,host5,charlie,powershell.exe,powerpnt.exe,"powershell -Command ""Invoke-Expression ...""",powerpnt.exe C:\Users\charlie\Documents\malicious.docm
+2025-08-02T10:49:48,host4,eve,powershell.exe,winword.exe,powershell.exe IEX (New-Object Net.WebClient).DownloadString(...),winword.exe C:\Users\eve\Documents\malicious.docm
+2025-08-02T10:40:09,host5,bob,chrome.exe,explorer.exe,chrome.exe https://example.com,explorer.exe
+2025-08-02T10:46:26,host6,alice,powershell.exe,powerpnt.exe,"powershell -Command ""Invoke-Expression ...""",powerpnt.exe C:\Users\alice\Documents\malicious.docm
+2025-08-02T10:20:02,host4,bob,powershell.exe,excel.exe,powershell.exe -nop -w hidden -enc ...,excel.exe C:\Users\bob\Documents\malicious.docm
+2025-08-02T10:15:02,host1,alice,chrome.exe,explorer.exe,chrome.exe https://example.com,explorer.exe
+2025-08-02T10:36:49,host5,alice,powershell.exe,powerpnt.exe,powershell -nop -enc ...,powerpnt.exe C:\Users\alice\Documents\malicious.docm
+2025-08-02T10:58:58,host6,alice,chrome.exe,explorer.exe,chrome.exe https://example.com,explorer.exe
+2025-08-02T10:06:58,host1,dave,powershell.exe,winword.exe,powershell -nop -enc ...,winword.exe C:\Users\dave\Documents\malicious.docm
+2025-08-02T10:49:17,host6,charlie,powershell.exe,powerpnt.exe,powershell -ExecutionPolicy Bypass -File evil.ps1,powerpnt.exe C:\Users\charlie\Documents\malicious.docm
+2025-08-02T10:15:52,host5,eve,powershell.exe,winword.exe,"powershell -Command ""Invoke-Expression ...""",winword.exe C:\Users\eve\Documents\malicious.docm
+2025-08-02T10:15:20,host1,charlie,cmd.exe,explorer.exe,cmd.exe /c whoami,explorer.exe
+2025-08-02T10:14:30,host6,dave,powershell.exe,excel.exe,powershell.exe IEX (New-Object Net.WebClient).DownloadString(...),excel.exe C:\Users\dave\Documents\malicious.docm
+2025-08-02T10:39:50,host4,charlie,powershell.exe,winword.exe,powershell -ExecutionPolicy Bypass -File evil.ps1,winword.exe C:\Users\charlie\Documents\malicious.docm
+2025-08-02T10:28:48,host1,alice,powershell.exe,winword.exe,powershell -ExecutionPolicy Bypass -File evil.ps1,winword.exe C:\Users\alice\Documents\malicious.docm
+2025-08-02T10:14:59,host6,charlie,powershell.exe,winword.exe,powershell -ExecutionPolicy Bypass -File evil.ps1,winword.exe C:\Users\charlie\Documents\malicious.docm
+2025-08-02T10:36:47,host3,frank,powershell.exe,powerpnt.exe,powershell.exe IEX (New-Object Net.WebClient).DownloadString(...),powerpnt.exe C:\Users\frank\Documents\malicious.docm
+2025-08-02T10:45:51,host6,charlie,notepad.exe,explorer.exe,notepad.exe,explorer.exe
+2025-08-02T10:38:58,host5,dave,cmd.exe,explorer.exe,cmd.exe /c whoami,explorer.exe
+2025-08-02T10:43:04,host1,bob,cmd.exe,explorer.exe,cmd.exe /c whoami,explorer.exe
+2025-08-02T10:02:08,host3,alice,chrome.exe,explorer.exe,chrome.exe https://example.com,explorer.exe
+2025-08-02T10:14:27,host5,frank,chrome.exe,explorer.exe,chrome.exe https://example.com,explorer.exe
+2025-08-02T10:23:13,host3,bob,powershell.exe,winword.exe,powershell -nop -enc ...,winword.exe C:\Users\bob\Documents\malicious.docm
+2025-08-02T10:13:43,host6,charlie,notepad.exe,explorer.exe,notepad.exe,explorer.exe
+2025-08-02T10:28:38,host2,dave,powershell.exe,powerpnt.exe,powershell -nop -enc ...,powerpnt.exe C:\Users\dave\Documents\malicious.docm
+2025-08-02T10:58:23,host2,alice,powershell.exe,excel.exe,powershell -nop -enc ...,excel.exe C:\Users\alice\Documents\malicious.docm
+2025-08-02T10:04:31,host2,eve,powershell.exe,powerpnt.exe,powershell -nop -enc ...,powerpnt.exe C:\Users\eve\Documents\malicious.docm
+2025-08-02T10:09:45,host3,bob,powershell.exe,winword.exe,"powershell -Command ""Invoke-Expression ...""",winword.exe C:\Users\bob\Documents\malicious.docm
+2025-08-02T10:14:37,host5,bob,chrome.exe,explorer.exe,chrome.exe https://example.com,explorer.exe
+2025-08-02T10:24:15,host2,frank,powershell.exe,excel.exe,powershell.exe -nop -w hidden -enc ...,excel.exe C:\Users\frank\Documents\malicious.docm
+2025-08-02T10:57:51,host3,eve,powershell.exe,excel.exe,powershell.exe -nop -w hidden -enc ...,excel.exe C:\Users\eve\Documents\malicious.docm
+2025-08-02T10:51:55,host5,bob,cmd.exe,explorer.exe,cmd.exe /c whoami,explorer.exe
+2025-08-02T10:13:34,host6,frank,powershell.exe,powerpnt.exe,"powershell -Command ""Invoke-Expression ...""",powerpnt.exe C:\Users\frank\Documents\malicious.docm
+2025-08-02T10:45:02,host4,eve,cmd.exe,explorer.exe,cmd.exe /c whoami,explorer.exe
+2025-08-02T10:55:15,host1,bob,powershell.exe,powerpnt.exe,powershell.exe IEX (New-Object Net.WebClient).DownloadString(...),powerpnt.exe C:\Users\bob\Documents\malicious.docm
+2025-08-02T10:43:39,host1,alice,powershell.exe,powerpnt.exe,powershell -nop -enc ...,powerpnt.exe C:\Users\alice\Documents\malicious.docm
+2025-08-02T10:30:57,host6,charlie,powershell.exe,winword.exe,powershell -nop -enc ...,winword.exe C:\Users\charlie\Documents\malicious.docm
